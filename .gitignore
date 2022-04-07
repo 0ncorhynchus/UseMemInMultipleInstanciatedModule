@@ -2,3 +2,7 @@
 /project
 /target
 /test_run_dir
+*.anno.json
+*.fir
+*.sv
+
