@@ -17,7 +17,7 @@ class MyMemory(ADDR_WIDTH: Int, DATA_WIDTH: Int, filePath: String) extends Modul
 
   when (io.en) {
     reg := mem(io.adr)
-    // printf(p"${filePath}(${io.adr}) => ${Hexadecimal(mem(io.adr))}\n")
+    // printf(p"${filePath}(${io.adr}) => ${Hexadecimal(mem(io.adr))}\n") // XXX
   }
 
   io.data := reg
